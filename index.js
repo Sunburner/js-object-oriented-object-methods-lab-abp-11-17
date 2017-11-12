@@ -5,7 +5,7 @@ function BoardMember(name, homeState, training) {
 
 }
 
-BoardMember.prototype.veto = function() {
+function BoardMember.prototype.veto = function() {
   returns 'No, I must disagree'
 }
 // // function polishedBoardMember('Mr. Polished', 'New York', 'law') {
