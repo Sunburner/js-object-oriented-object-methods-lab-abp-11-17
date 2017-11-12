@@ -30,6 +30,6 @@ BoardMember.prototype.releasePressStatement = function() {
   return 'You will see great things from Scuber.'
 }
 
-BoardMember.prototype.sayHi = function() {
-  return 'Hi, my name is $[name}.  I am from ${homeState}, and I was trained in ${training}.'
+this.sayHi = function(){
+return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`
 }
