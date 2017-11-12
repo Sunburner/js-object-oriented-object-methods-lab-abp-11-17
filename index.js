@@ -3,19 +3,11 @@ function BoardMember(name, homeState, training) {
   this.homeState = homeState;
   this.training = training;
 
-}
-
-
 
 this.veto = function() {
   return 'No, I must disagree'
 }
-//
-//   polishedBoardMember.veto() = function(){
-//
-//   // this.veto = function(){
-//     console.log("No, I must disagree")
-//   }
+
 
 this.approve = function() {
   return 'You can do that!'
@@ -31,4 +23,6 @@ this.releasePressStatement = function() {
 
 this.sayHi = function(){
 return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`
+}
+
 }
