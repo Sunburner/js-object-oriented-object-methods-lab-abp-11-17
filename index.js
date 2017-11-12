@@ -8,7 +8,7 @@ function BoardMember(name, homeState, training) {
 BoardMember.prototype.veto = function() {
   return 'No, I must disagree'
 }
-function polishedBoardMember('Mr. Polished', 'New York', 'law') {
+polishedBoardMember('Mr. Polished', 'New York', 'law') {
 let polishedBoardMember = new BoardMember('Mr. Polished', 'New York', 'law')
 //   polishedBoardMember.veto() = function(){
 //
