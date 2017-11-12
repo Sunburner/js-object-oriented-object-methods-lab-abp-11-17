@@ -22,7 +22,7 @@ BoardMember.prototype.approve = function() {
 
 
 BoardMember.prototype.doCharity = function() {
-  return 'I like to help people'
+  return 'I like to help people.'
 }
 
 
