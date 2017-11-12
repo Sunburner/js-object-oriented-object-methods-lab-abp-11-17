@@ -5,6 +5,8 @@ function BoardMember(name, homeState, training) {
 
 }
 
+let polishedBoardMember = BoardMember ('Mr.Polished', 'New York', 'Law')
+
 BoardMember.prototype.veto = function() {
   return 'No, I must disagree'
 }
