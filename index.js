@@ -5,9 +5,9 @@ function BoardMember(name, homeState, training) {
 
 }
 
-let polishedBoardMember = BoardMember ('Mr.Polished', 'New York', 'Law')
 
-BoardMember.prototype.veto = function() {
+
+this.veto = function() {
   return 'No, I must disagree'
 }
 //
@@ -17,16 +17,15 @@ BoardMember.prototype.veto = function() {
 //     console.log("No, I must disagree")
 //   }
 
-BoardMember.prototype.approve = function() {
+this.approve = function() {
   return 'You can do that!'
 }
 
-
-BoardMember.prototype.doCharity = function() {
+this.doCharity = function() {
   return 'I like to help people.'
 }
 
-BoardMember.prototype.releasePressStatement = function() {
+this.releasePressStatement = function() {
   return 'You will see great things from Scuber.'
 }
 
