@@ -26,6 +26,6 @@ BoardMember.prototype.doCharity = function() {
 }
 
 
-BoardMember.prototype.approve = function() {
+BoardMember.prototype.sayHi = function() {
   return 'Hi, my name is $[this.name}.  I am from ${homeState}, and I was trained in ${training}.'
 }
